@@ -9,4 +9,4 @@
     - I tried three different epochs: 100, 150 and 200.
 
 ## Alternative Models
-I campared Nerual Network model performance with Random Forest, Gradient Boosting Trees, Logistic Regression and SVM models. I found Gradient Boosting Trees can acheive similar accuracy to Nerual Network for this dataset.
+I campared Nerual Network model performance with Random Forest, Gradient Boosting Trees, Logistic Regression and SVM models. I found Gradient Boosting Trees can acheive similar accuracy to Nerual Network for this dataset. The training Accuracy score is 0.735. And the validation Accuracy score is 0.729.
