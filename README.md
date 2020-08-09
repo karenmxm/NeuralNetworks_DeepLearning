@@ -8,7 +8,7 @@
     - I leave out noisy variables from features.B ucketed two categorical variables to avoid some of the categories have too few data. Scaled data to avoid outliers.
     - I tried different number of hidden layers. I tried from 1 to 5 hidden layers and found 2 hidden layers works best.
     - I tried different activation functions including relu, tanh and sigmoid functions. I found sigmoid function works better.
-    - I tried three different epochs: 100, 200 and 300.
+    - I tried three different epochs: 100, 200 and 300 and used 100 epochs.
 
 ## Alternative Models
 I campared Nerual Network model performance with Random Forest, Gradient Boosting Trees, Logistic Regression and SVM models. I found Gradient Boosting Trees can acheive similar accuracy to Nerual Network for this dataset. The training Accuracy score is 0.735. And the validation Accuracy score is 0.729.
