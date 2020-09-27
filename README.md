@@ -5,7 +5,7 @@ This project is to help a non-profit foundation who dedicates to help organizati
 We used supervised learning models for this project to make the predictions. We trained and compared Nerual Network model and some other machine learning models' performance.
 
 ## Techniques used in this Project
- - Implement neural network models and deep neural network using TensorFlow.
+ - Use TensorFlow to implement neural network models and deep neural network.
  - Use testing accurracy score to explain how different neural network structures change algorithm performance.
  - Use testing accurracy score to compare the differences between the traditional machine learning classification and regression models and the neural network models.
  - Use Keras Sequential model’s save method to export the entire model (weights, structure, and configuration settings) 
