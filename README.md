@@ -1,5 +1,14 @@
 # NeuralNetworks_DeepLearning
 
+## 
+
+ - Compare the differences between the traditional machine learning classification and regression models and the neural network models.
+ - Implement neural network models using TensorFlow.
+ - Explain how different neural network structures change algorithm performance.
+ - Compare the differences between neural network models and deep neural networks.
+ - Implement deep neural network models using TensorFlow.
+ - Save trained TensorFlow models for later use.
+
 ## Nerual Network Model
   - Two hidden layers were used for the Neural Network model. 
   - The choosing of the number of neurons is based on rule of thumb that the number of neurons is 2-3 times of inputs. There are 69 inputs, so 138 neurons are used in the first layer and 30 neurons in the second hidden layer. 
