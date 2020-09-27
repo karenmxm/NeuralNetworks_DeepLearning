@@ -26,5 +26,6 @@ I campared Nerual Network model performance with Random Forest, Gradient Boostin
 | Machine Learning Model   | Accuracy | Benefits | limitations |
 | :------------------------|----------|----------|-------------|
 | Logistic Regression      | 72.3%    | Easy to implement. Tuning of hyperparameters not needed.| Lack flexibility. Might suffer from model mis-specification.|
+| Random Forest            | Training:73.1%; Testing: 73.2%  | Reduce the risk of overfitting and hgher accuracy than Decision Tree model.| Computation relatively expensive.|
 | Gradient Boosting Tree   | Training:74.6%; Testing: 73.1%  | Good model performence. Less prone to overfitting.| Hard to tune as there are too many hyperparameters. |
 | SVM                      | Training:    %; Testing: 72.2%  | Computation faster. | Poor performence.|
