@@ -22,3 +22,9 @@ We used supervised learning models for this project to make the predictions. We 
 
 ## Alternative Models
 I campared Nerual Network model performance with Random Forest, Gradient Boosting Trees, Logistic Regression and SVM models. I found Gradient Boosting Trees can acheive similar accuracy to Nerual Network for this dataset. The training Accuracy score is 0.746. And the validation Accuracy score is 0.731.
+
+| Machine Learning Model   | Accuracy | Benefits | limitations |
+| :------------------------|----------|----------|-------------|
+| Logistic Regression      | 72.3%    | Easy to implement. Tuning of hyperparameters not needed.| Lack flexibility. Might suffer from model mis-specification.|
+| Gradient Boosting Tree   | Training:74.6%; Testing: 73.1%  | Good model performence. Less prone to overfitting.| Hard to tune as there are too many hyperparameters. |
+| SVM                      | Training:    %; Testing: 72.2%  | Computation faster. | Poor performence.|
