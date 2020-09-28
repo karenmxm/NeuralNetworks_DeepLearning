@@ -33,6 +33,7 @@ We used supervised learning models for this project to make the predictions. We 
     <img src= https://github.com/karenmxm/NeuralNetworks_DeepLearning/blob/master/Images/classification_variable.png>
     
   - [APPLICATION_TYPE](https://github.com/karenmxm/NeuralNetworks_DeepLearning/blob/master/Images/applicationType_variable.png)
+    - APPLICATION_TYPE counts less than 10 are grouped into "other" group.
   
     <img src= https://github.com/karenmxm/NeuralNetworks_DeepLearning/blob/master/Images/applicationType_variable.png>
   
