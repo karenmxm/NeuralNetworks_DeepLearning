@@ -9,6 +9,12 @@ We used supervised learning models for this project to make the predictions. We 
  - Use testing accurracy score to explain how different neural network structures change algorithm performance.
  - Use testing accurracy score to compare the differences between the traditional machine learning classification and regression models and the neural network models.
  - Use Keras Sequential model’s save method to export the entire model (weights, structure, and configuration settings) 
+ 
+## Data Preprocessing
+
+ - Low variance variables 
+  - Numerical variable(s)
+  ![Variable Statistics](https://github.com/karenmxm/NeuralNetworks_DeepLearning/blob/master/Images/Stats.png)
 
 ## Nerual Network Model 
   - Two hidden layers were used for the Neural Network model. 
