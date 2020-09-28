@@ -15,7 +15,7 @@ We used supervised learning models for this project to make the predictions. We 
  - Low variance variables 
   - Numerical variable(s)
   
-  ![Variable Statistics]<img src= https://github.com/karenmxm/NeuralNetworks_DeepLearning/blob/master/Images/Stats.png width=50%)
+  ![Variable Statistics]<img src= https://github.com/karenmxm/NeuralNetworks_DeepLearning/blob/master/Images/Stats.png width=50%>
 
 ## Nerual Network Model 
   - Two hidden layers were used for the Neural Network model. 
