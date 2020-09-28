@@ -12,16 +12,17 @@ We used supervised learning models for this project to make the predictions. We 
  
 ## Data Preprocessing
 
- ### Low variance variables: low variance variables are removed 
-     - Numerical variable(s): [Variable Statistics](https://github.com/karenmxm/NeuralNetworks_DeepLearning/blob/master/Images/Stats.png)
+### Low variance variables: low variance variables are removed
+
+  - Numerical variable(s): [Variable Statistics](https://github.com/karenmxm/NeuralNetworks_DeepLearning/blob/master/Images/Stats.png)
   
-       <img src= https://github.com/karenmxm/NeuralNetworks_DeepLearning/blob/master/Images/Stats.png width=50%>
+    <img src= https://github.com/karenmxm/NeuralNetworks_DeepLearning/blob/master/Images/Stats.png width=50%>
        
-     - Categorical Variable
+  - Categorical Variable
        
-       |   Variable               | YES | NO |
-       | :------------------------|-----|----|
-       |   SPECIAL_CONSIDERATIONS |  27 | 34272 |
+    |   Variable               | YES | NO |
+    | :------------------------|-----|----|
+    |   SPECIAL_CONSIDERATIONS |  27 | 34272 |
        
        
 ### Bucket CLASSIFICATION and APPLICATION_TYPE Variables
