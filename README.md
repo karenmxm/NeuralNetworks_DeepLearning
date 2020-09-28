@@ -4,11 +4,41 @@ This project is to help a non-profit foundation who dedicates to help organizati
 
 We used supervised learning models for this project to make the predictions. We trained and compared Nerual Network model and some other machine learning models' performance.
 
+[Detailed Analysis in Jupyter Notebook](https://github.com/karenmxm/NeuralNetworks_DeepLearning/blob/master/AlphabetSoupChallenge.ipynb)
+
 ## Techniques used in this Project
- - Use TensorFlow to implement neural network models and deep neural network.
+ - Use `TensorFlow` to implement neural network models and deep neural network.
  - Use testing accurracy score to explain how different neural network structures change algorithm performance.
  - Use testing accurracy score to compare the differences between the traditional machine learning classification and regression models and the neural network models.
- - Use Keras Sequential model’s save method to export the entire model (weights, structure, and configuration settings) 
+ - Use `Keras` Sequential model’s save method to export the entire model (weights, structure, and configuration settings) 
+ 
+## Data Preprocessing
+
+### Low variance variables: low variance variables are removed
+
+  - Numerical variable(s): [Variable Statistics](https://github.com/karenmxm/NeuralNetworks_DeepLearning/blob/master/Images/Stats.png)
+  
+    <img src= https://github.com/karenmxm/NeuralNetworks_DeepLearning/blob/master/Images/Stats.png width=50%>
+       
+  - Categorical Variable
+       
+    |   Variable               | YES | NO |
+    | :------------------------|-----|----|
+    |   SPECIAL_CONSIDERATIONS |  27 | 34272 |
+       
+       
+### Bucket CLASSIFICATION and APPLICATION_TYPE Variables
+
+  - [CLASSIFICATION](https://github.com/karenmxm/NeuralNetworks_DeepLearning/blob/master/Images/classification_variable.png)
+    - CLASSIFICATION counts less than 10 are grouped into "other" group.
+    
+    <img src= https://github.com/karenmxm/NeuralNetworks_DeepLearning/blob/master/Images/classification_variable.png>
+    
+  - [APPLICATION_TYPE](https://github.com/karenmxm/NeuralNetworks_DeepLearning/blob/master/Images/applicationType_variable.png)
+    - APPLICATION_TYPE counts less than 10 are grouped into "other" group.
+  
+    <img src= https://github.com/karenmxm/NeuralNetworks_DeepLearning/blob/master/Images/applicationType_variable.png>
+  
 
 ## Nerual Network Model 
   - Two hidden layers were used for the Neural Network model. 
@@ -23,10 +53,10 @@ We used supervised learning models for this project to make the predictions. We 
 ## Alternative Models
 I campared Nerual Network model performance with Random Forest, Gradient Boosting Trees, Logistic Regression and SVM models. I found Gradient Boosting Trees can acheive similar accuracy to Nerual Network for this dataset. The training Accuracy score is 0.746. And the validation Accuracy score is 0.731.
 
-| Machine Learning Model   | Accuracy | Benefits | limitations |
-| :------------------------|----------|----------|-------------|
-| Nerual Network           | Training: 74.56% Testing: 73.41%    | | |
-| Logistic Regression      | 72.3%    | Easy to implement. Tuning of hyperparameters not needed.| Lack flexibility. Might suffer from model mis-specification.|
-| Random Forest            | Training: 73.9%; Testing: 72.9%  | Reduce the risk of overfitting and hgher accuracy than Decision Tree model.| Computation relatively expensive.|
-| Gradient Boosting Tree   | Training: 74.6%; Testing: 73.1%  | Good model performence. Less prone to overfitting.| Hard to tune as there are too many hyperparameters. |
-| SVM                      | Training: 72.6%; Testing: 72.2%  | Computation faster. | Poor performence.|
+| Machine Learning Model   | Accuracy | 
+| :------------------------|----------|
+| Nerual Network           | Training: 74.56%; Testing: 73.41% |
+| Logistic Regression      | 72.3%    |
+| Random Forest            | Training: 73.9%; Testing: 72.9%  | 
+| Gradient Boosting Tree   | Training: 74.6%; Testing: 73.1%  | 
+| SVM                      | Training: 72.6%; Testing: 72.2%  |
