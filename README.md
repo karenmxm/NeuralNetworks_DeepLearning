@@ -16,6 +16,7 @@ We used supervised learning models for this project to make the predictions. We 
   - Numerical variable(s)
   
   [Variable Statistics](https://github.com/karenmxm/NeuralNetworks_DeepLearning/blob/master/Images/Stats.png)
+  
   <img src= https://github.com/karenmxm/NeuralNetworks_DeepLearning/blob/master/Images/Stats.png width=50%>
 
 ## Nerual Network Model 
