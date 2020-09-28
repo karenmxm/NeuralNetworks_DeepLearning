@@ -4,7 +4,7 @@ This project is to help a non-profit foundation who dedicates to help organizati
 
 We used supervised learning models for this project to make the predictions. We trained and compared Nerual Network model and some other machine learning models' performance.
 
-[Detailed Analysis in Jupyter Notebook](https://github.com/karenmxm/NeuralNetworks_DeepLearning/blob/master/AlphabetSoupChallenge.ipynb)
+[Detailed Analysis in Jupyter Notebook](https://github.com/karenmxm/NeuralNetworks_DeepLearning/blob/master/Code/AlphabetSoupChallenge.ipynb)
 
 ## Techniques used in this Project
  - Use `TensorFlow` to implement neural network models and deep neural network.
