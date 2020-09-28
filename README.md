@@ -53,7 +53,7 @@ I campared Nerual Network model performance with Random Forest, Gradient Boostin
 
 | Machine Learning Model   | Accuracy | 
 | :------------------------|----------|
-| Nerual Network           | Training: 74.56% Testing: 73.41%    |
+| Nerual Network           | Training: 74.56%; Testing: 73.41% |
 | Logistic Regression      | 72.3%    |
 | Random Forest            | Training: 73.9%; Testing: 72.9%  | 
 | Gradient Boosting Tree   | Training: 74.6%; Testing: 73.1%  | 
