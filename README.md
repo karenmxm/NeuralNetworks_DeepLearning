@@ -19,11 +19,11 @@ We used supervised learning models for this project to make the predictions. We 
   
        <img src= https://github.com/karenmxm/NeuralNetworks_DeepLearning/blob/master/Images/Stats.png width=50%>
        
-     - []
+     - Categorical Variable
        
-       | SPECIAL_CONSIDERATIONS   | YES | NO |
+       |   Variable               | YES | NO |
        | :------------------------|-----|----|
-       |                          |  27 | 34272 |
+       |   SPECIAL_CONSIDERATIONS |  27 | 34272 |
 
 ## Nerual Network Model 
   - Two hidden layers were used for the Neural Network model. 
