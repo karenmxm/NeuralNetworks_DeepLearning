@@ -1,6 +1,6 @@
 # NeuralNetworks_DeepLearning
 
-This project is to help a non-profit foundation who dedicates to help organizations that protect the environment, improve people's well-being and unify the world to analyze which orgnizations are worth to donate to and which are too high risk.
+This project is to help a non-profit foundation who dedicates to help organizations that protect the environment, improve people's well-being and unify the world to analyze which organizations are worth to donate to and which are too high risk.
 
 We used supervised learning models for this project to make the predictions. We trained and compared Nerual Network model and some other machine learning models' performance.
 
